@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "branvier_template (debug staging)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=ENV=staging",
+            ]
+        },
+        {
+            "name": "branvier_template (debug production)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=ENV=production",
+            ]
+        },
+        {
+            "name": "branvier_template (profile staging)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "--dart-define=ENV=profile",
+            ]
+        }
+    ]
+}

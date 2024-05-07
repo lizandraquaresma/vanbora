@@ -1,0 +1,18 @@
+{
+    "form.required": "Campo obrigatório",
+    "API.CONNECTION_ERROR": "Falha ao conectar com servidor. Por favor, tente novamente mais tarde",
+    "API.EMPTY": "Resposta vazia do servidor.",
+    "API.GENERIC.AUTH_TOKEN_INVALID": "Autenticação de usuário inválida.",
+    "API.GENERIC.NO_AUTH_TOKEN": "Usuário não autenticado.",
+    "API.GENERIC.NO_SESSION_TOKEN": "Sessão de usuário não autenticada.",
+    "API.GENERIC.TOKEN_INVALID": "Autenticação de sessão de usuário inválida.",
+    "API.LOGIN.ERROR": "Falha ao realizar o login.",
+    "API.LOGIN.ERROR_DB_GENERIC": "Erro na base de login. Contate o suporte.",
+    "API.LOGIN.ERROR_GENERIC": "Erro não identificado. Contate o suporte.",
+    "API.LOGIN.SUCESS": "Usuário logado com sucesso!",
+    "API.LOGIN.USER_NOT_FOUND": "Usuário não encontrado.",
+    "API.LOGIN.USER_UNAUTHORIZED": "E-mail ou senha inválida.",
+
+    "FORM.INVALID": "Verifique e preencha os campos",
+    "FORM.INVALID.BIRTH_DATE": "Verifique a data informada"
+}
