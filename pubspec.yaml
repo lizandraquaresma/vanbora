@@ -1,5 +1,5 @@
-name: branvier_template
-description: A new Branvier project.
+name: vanbora
+description: Compre passagens e navegue facilmente utilizando a geolocalização. Conforto, praticidade e segurança em suas viagens.
 version: 0.3.1
 
 environment:
