@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 
-import 'register_page.dart';
-import 'splash_dois.dart';
+import 'login_page.dart';
 
-class SplashUm extends StatelessWidget {
-  const SplashUm({super.key});
+class SplashDois extends StatelessWidget {
+  const SplashDois({super.key});
 
-  static final name = '$SplashUm';
+  static final name = '$SplashDois';
   static void go(BuildContext context) => context.goNamed(name);
 
   @override
@@ -22,27 +21,36 @@ class SplashUm extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 20),
-                child: Image.asset('/icons/van.png'),
+                child: Image.asset('/icons/world.png'),
               ),
+              const Gap(24),
               const Center(
                 child: Text(
                   textAlign: TextAlign.center,
-                  'Bem-vindo ao VANBORA! Aqui, tornamos suas viagens mais eficientes. Explore rotas, compre passagens e desfrute de uma jornada simplificada.',
+                  'Explore o poder da geolocalização!  Você pode encontrar rotas de van próximas, comprar passagens e embarcar em sua jornada com confiança.',
                 ),
               ),
-              const Gap(80),
+              const Gap(24),
+              const Center(
+                child: Text(
+                  textAlign: TextAlign.center,
+                  'Bem-vindo a uma maneira mais inteligente de viajar.',
+                ),
+              ),
+              const Gap(40),
               FilledButton(
                 style: FilledButton.styleFrom(
                   minimumSize: const Size(double.infinity, 48),
                   shape: const RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(8)),
                   ),
-                  backgroundColor: const Color.fromRGBO(255,179,46,1),
+                  backgroundColor: const Color.fromRGBO(255, 179, 46, 1),
                 ),
-                  onPressed: () {
-                    SplashDois.go(context);
-                  },
-                  child: const Text('Prosseguir'),)
+                onPressed: () {
+                  LoginPage.go(context);
+                },
+                child: const Text('Prosseguir'),
+              )
             ],
           ),
         ),

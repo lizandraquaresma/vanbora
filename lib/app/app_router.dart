@@ -7,7 +7,9 @@ import 'features/account/views/account_page.dart';
 import 'features/account/views/edit_account_page.dart';
 import 'features/auth/stores/auth_store.dart';
 import 'features/auth/views/forgot_password_page.dart';
+import 'features/auth/views/login_page.dart';
 import 'features/auth/views/register_page.dart';
+import 'features/auth/views/splash_dois.dart';
 import 'features/auth/views/splash_um.dart';
 import 'features/home/views/home_page.dart';
 import 'features/user/stores/user_store.dart';
@@ -22,25 +24,39 @@ mixin AppRouter {
         GoRoute(
           path: '/',
           redirect: (context, _) {
-            return context.read<AuthStore>().isLogged ? '/home' : '/splashum';
+            return context.read<AuthStore>().isLogged ? '/home' : '/um';
           },
         ),
 
         // * Auth
         GoRoute(
-          path: '/splashum',
+          path: '/um',
           name: SplashUm.name,
           builder: (_, __) => const SplashUm(),
           routes: [
             GoRoute(
-              path: 'register',
-              name: RegisterPage.name,
-              builder: (_, __) => const RegisterPage(),
-            ),
-            GoRoute(
-              path: 'forgot-password',
-              name: ForgotPasswordPage.name,
-              builder: (_, __) => const ForgotPasswordPage(),
+              path: 'dois',
+              name: SplashDois.name,
+              builder: (_, __) => const SplashDois(),
+              routes: [
+                GoRoute(
+                  path: 'login',
+                  name: LoginPage.name,
+                  builder: (_, __) => const LoginPage(),
+                  routes: [
+                    GoRoute(
+                      path: 'forgot-password',
+                      name: ForgotPasswordPage.name,
+                      builder: (_, __) => const ForgotPasswordPage(),
+                    ),
+                    GoRoute(
+                      path: 'register',
+                      name: RegisterPage.name,
+                      builder: (_, __) => const RegisterPage(),
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),

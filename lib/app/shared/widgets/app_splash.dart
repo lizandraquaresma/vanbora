@@ -7,11 +7,11 @@ class AppSplash extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text('Splash Screen'),
+          child: Image.asset('/icons/logo.png', width: 240),
         ),
       ),
     );
