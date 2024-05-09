@@ -7,8 +7,8 @@ import 'features/account/views/account_page.dart';
 import 'features/account/views/edit_account_page.dart';
 import 'features/auth/stores/auth_store.dart';
 import 'features/auth/views/forgot_password_page.dart';
-import 'features/auth/views/login_page.dart';
 import 'features/auth/views/register_page.dart';
+import 'features/auth/views/splash_um.dart';
 import 'features/home/views/home_page.dart';
 import 'features/user/stores/user_store.dart';
 import 'features/user/views/home_shell.dart';
@@ -22,15 +22,15 @@ mixin AppRouter {
         GoRoute(
           path: '/',
           redirect: (context, _) {
-            return context.read<AuthStore>().isLogged ? '/home' : '/login';
+            return context.read<AuthStore>().isLogged ? '/home' : '/splashum';
           },
         ),
 
         // * Auth
         GoRoute(
-          path: '/login',
-          name: LoginPage.name,
-          builder: (_, __) => const LoginPage(),
+          path: '/splashum',
+          name: SplashUm.name,
+          builder: (_, __) => const SplashUm(),
           routes: [
             GoRoute(
               path: 'register',
