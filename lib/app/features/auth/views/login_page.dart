@@ -164,11 +164,12 @@ class LoginPage extends StatelessWidget {
                             const Gap(4),
                             TextButton(
                               onPressed: () => RegisterPage.go(context),
-                              child: const Text(
+                              child: Text(
                                 'Cadastre-se',
                                 style: TextStyle(
                                   fontSize: 13,
                                   fontWeight: FontWeight.bold,
+                                  color: AppColors.light.secondary
                                 ),
                               ),
                             ),

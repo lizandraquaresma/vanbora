@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../auth/views/login_page.dart';
 import '../../user/stores/user_store.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,6 +23,12 @@ class HomePage extends StatelessWidget {
             const Text('Home Page \n\n'),
             const Text('Olá'),
             Text(user.name),
+            IconButton(
+              onPressed: () {
+                LoginPage.go(context);
+              },
+              icon: const Icon(Icons.logout),
+            )
           ],
         ),
       ),
