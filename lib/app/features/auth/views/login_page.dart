@@ -169,7 +169,7 @@ class LoginPage extends StatelessWidget {
                                 style: TextStyle(
                                   fontSize: 13,
                                   fontWeight: FontWeight.bold,
-                                  color: AppColors.light.secondary
+                                  color: AppColors.light.secondary,
                                 ),
                               ),
                             ),

@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                 LoginPage.go(context);
               },
               icon: const Icon(Icons.logout),
-            )
+            ),
           ],
         ),
       ),

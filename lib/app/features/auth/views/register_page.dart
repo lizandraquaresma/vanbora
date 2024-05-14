@@ -5,14 +5,11 @@ import 'package:flutter_async/flutter_async.dart';
 import 'package:formx/formx.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
-import 'package:tr_extension/tr_extension.dart';
 import 'package:typeset/typeset.dart';
 
 import '../../../shared/constants/app_colors.dart';
 import '../../../shared/constants/assets.dart';
 import '../../home/views/home_page.dart';
-import '../models/register_user_dto.dart';
-import 'forgot_password_page.dart';
 import 'login_page.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -146,7 +143,7 @@ class RegisterPage extends StatelessWidget {
                           final state = context.formx();
                           if (!state.validate()) return;
 
-                          final dto = RegisterUserDto.fromMap(state.values);
+                          // final dto = RegisterUserDto.fromMap(state.values);
 
                           if (context.mounted) HomePage.go(context);
                         },
