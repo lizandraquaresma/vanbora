@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_match_file_name
 
 class AssetImages {
- static const String van = 'assets/icons/van.png';
+ static const String logoAlpha = 'assets/images/logo_alpha.png';
   
 }
 

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 
-import 'register_page.dart';
 import 'splash_dois.dart';
 
 class SplashUm extends StatelessWidget {
@@ -27,6 +26,7 @@ class SplashUm extends StatelessWidget {
               const Center(
                 child: Text(
                   textAlign: TextAlign.center,
+                  // ignore: lines_longer_than_80_chars
                   'Bem-vindo ao VANBORA! Aqui, tornamos suas viagens mais eficientes. Explore rotas, compre passagens e desfrute de uma jornada simplificada.',
                 ),
               ),
@@ -37,12 +37,13 @@ class SplashUm extends StatelessWidget {
                   shape: const RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(8)),
                   ),
-                  backgroundColor: const Color.fromRGBO(255,179,46,1),
+                  backgroundColor: const Color.fromRGBO(255, 179, 46, 1),
                 ),
-                  onPressed: () {
-                    SplashDois.go(context);
-                  },
-                  child: const Text('Prosseguir'),)
+                onPressed: () {
+                  SplashDois.go(context);
+                },
+                child: const Text('Prosseguir'),
+              ),
             ],
           ),
         ),

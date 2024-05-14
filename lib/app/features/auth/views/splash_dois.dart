@@ -27,6 +27,7 @@ class SplashDois extends StatelessWidget {
               const Center(
                 child: Text(
                   textAlign: TextAlign.center,
+                  // ignore: lines_longer_than_80_chars
                   'Explore o poder da geolocalização!  Você pode encontrar rotas de van próximas, comprar passagens e embarcar em sua jornada com confiança.',
                 ),
               ),
@@ -50,7 +51,7 @@ class SplashDois extends StatelessWidget {
                   LoginPage.go(context);
                 },
                 child: const Text('Prosseguir'),
-              )
+              ),
             ],
           ),
         ),

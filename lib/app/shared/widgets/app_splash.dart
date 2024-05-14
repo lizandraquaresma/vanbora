@@ -11,7 +11,7 @@ class AppSplash extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Image.asset('/icons/logo.png', width: 240),
+          child: Image.asset('/icons/logo.png', width: 180),
         ),
       ),
     );
