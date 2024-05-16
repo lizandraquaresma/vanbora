@@ -718,3 +718,1471 @@
 [WrapWithAsyncBuilder] 2024-05-13T20:01:03.886452 #96     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
 [WrapWithAsyncBuilder] 2024-05-13T20:01:03.886452 <asynchronous suspension>
 [WrapWithAsyncBuilder] 2024-05-13T20:01:03.886452
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.getNavigation failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at C:\projetos\vanbora:
+ParsedYamlException: line 36, column 16: Mapping values are not allowed here. Did you miss a colon earlier?
+   ╷
+36 │    google_fonts: ^6.2.1
+   │                ^
+   ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:32:5)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:167:7)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:85:18)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:986:28)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:524:21)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:489:22)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54:23)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:358:23)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:339:9)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:989:7)
+#1      _rootRunBinary (dart:async/zone.dart:1423:47)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1315:19)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:178:22)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:859:47)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:880:13)
+#6      Future._completeError (dart:async/future_impl.dart:660:5)
+<asynchronous suspension>
+
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 Plugin WrapWithAsyncBuilder threw while analyzing C:\projetos\vanbora\lib\app\shared\widgets\app_splash.dart:
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #4      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:134:33)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #5      WrapWithAsyncBuilder.run.<anonymous closure> (package:branvier_lints/src/wrap_with_async_builder.dart:36:21)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #6      _rootRunUnary (dart:async/zone.dart:1415:13)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #7      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #8      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #9      LinterVisitor.visitInstanceCreationExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:609:5)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #10     InstanceCreationExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:10485:15)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #11     NamedExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:12608:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #12     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #13     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #14     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #15     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #16     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #17     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #18     GeneralizingAstVisitor.visitNamedExpression (package:analyzer/dart/ast/visitor.dart:519:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #19     LinterVisitor.visitNamedExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:754:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #20     NamedExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:12598:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #22     ArgumentListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:511:16)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #25     GeneralizingAstVisitor.visitArgumentList (package:analyzer/dart/ast/visitor.dart:143:46)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #26     LinterVisitor.visitArgumentList (package:custom_lint_core/src/node_lint_visitor.g.dart:58:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #27     ArgumentListImpl.accept (package:analyzer/src/dart/ast/ast.dart:507:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #28     InstanceCreationExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:10496:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #29     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #30     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #31     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #32     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #33     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #34     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #35     GeneralizingAstVisitor.visitInstanceCreationExpression (package:analyzer/dart/ast/visitor.dart:443:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #36     LinterVisitor.visitInstanceCreationExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:610:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #37     InstanceCreationExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:10485:15)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #38     NamedExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:12608:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #39     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #40     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #41     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #42     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #43     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #44     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #45     GeneralizingAstVisitor.visitNamedExpression (package:analyzer/dart/ast/visitor.dart:519:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #46     LinterVisitor.visitNamedExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:754:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #47     NamedExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:12598:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #48     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #49     ArgumentListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:511:16)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #50     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #51     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #52     GeneralizingAstVisitor.visitArgumentList (package:analyzer/dart/ast/visitor.dart:143:46)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #53     LinterVisitor.visitArgumentList (package:custom_lint_core/src/node_lint_visitor.g.dart:58:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #54     ArgumentListImpl.accept (package:analyzer/src/dart/ast/ast.dart:507:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #55     InstanceCreationExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:10496:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #56     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #57     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #58     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #59     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #60     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #61     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #62     GeneralizingAstVisitor.visitInstanceCreationExpression (package:analyzer/dart/ast/visitor.dart:443:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #63     LinterVisitor.visitInstanceCreationExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:610:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #64     InstanceCreationExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:10485:15)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #65     NamedExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:12608:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #66     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #67     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #68     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #69     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #70     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #71     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #72     GeneralizingAstVisitor.visitNamedExpression (package:analyzer/dart/ast/visitor.dart:519:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #73     LinterVisitor.visitNamedExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:754:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #74     NamedExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:12598:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #75     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #76     ArgumentListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:511:16)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #77     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #78     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #79     GeneralizingAstVisitor.visitArgumentList (package:analyzer/dart/ast/visitor.dart:143:46)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #80     LinterVisitor.visitArgumentList (package:custom_lint_core/src/node_lint_visitor.g.dart:58:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #81     ArgumentListImpl.accept (package:analyzer/src/dart/ast/ast.dart:507:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #82     InstanceCreationExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:10496:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #83     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #84     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #85     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #86     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #87     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #88     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #89     GeneralizingAstVisitor.visitInstanceCreationExpression (package:analyzer/dart/ast/visitor.dart:443:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #90     LinterVisitor.visitInstanceCreationExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:610:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #91     InstanceCreationExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:10485:15)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #92     NamedExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:12608:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #93     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #94     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #95     GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #96     LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #97     GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #98     LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #99     GeneralizingAstVisitor.visitNamedExpression (package:analyzer/dart/ast/visitor.dart:519:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #100    LinterVisitor.visitNamedExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:754:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #101    NamedExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:12598:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #102    NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #103    ArgumentListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:511:16)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #104    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #105    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #106    GeneralizingAstVisitor.visitArgumentList (package:analyzer/dart/ast/visitor.dart:143:46)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #107    LinterVisitor.visitArgumentList (package:custom_lint_core/src/node_lint_visitor.g.dart:58:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #108    ArgumentListImpl.accept (package:analyzer/src/dart/ast/ast.dart:507:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #109    InstanceCreationExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:10496:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #110    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #111    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #112    GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #113    LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #114    GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #115    LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #116    GeneralizingAstVisitor.visitInstanceCreationExpression (package:analyzer/dart/ast/visitor.dart:443:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #117    LinterVisitor.visitInstanceCreationExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:610:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #118    InstanceCreationExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:10485:15)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #119    NamedExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:12608:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #120    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #121    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #122    GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #123    LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #124    GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #125    LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #126    GeneralizingAstVisitor.visitNamedExpression (package:analyzer/dart/ast/visitor.dart:519:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #127    LinterVisitor.visitNamedExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:754:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #128    NamedExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:12598:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #129    NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #130    ArgumentListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:511:16)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #131    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #132    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #133    GeneralizingAstVisitor.visitArgumentList (package:analyzer/dart/ast/visitor.dart:143:46)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #134    LinterVisitor.visitArgumentList (package:custom_lint_core/src/node_lint_visitor.g.dart:58:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #135    ArgumentListImpl.accept (package:analyzer/src/dart/ast/ast.dart:507:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #136    InstanceCreationExpressionImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:10496:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #137    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #138    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #139    GeneralizingAstVisitor.visitCollectionElement (package:analyzer/dart/ast/visitor.dart:208:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #140    LinterVisitor.visitCollectionElement (package:custom_lint_core/src/node_lint_visitor.g.dart:184:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #141    GeneralizingAstVisitor.visitExpression (package:analyzer/dart/ast/visitor.dart:305:42)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #142    LinterVisitor.visitExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:370:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #143    GeneralizingAstVisitor.visitInstanceCreationExpression (package:analyzer/dart/ast/visitor.dart:443:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #144    LinterVisitor.visitInstanceCreationExpression (package:custom_lint_core/src/node_lint_visitor.g.dart:610:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #145    InstanceCreationExpressionImpl.accept (package:analyzer/src/dart/ast/ast.dart:10485:15)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #146    ReturnStatementImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:15686:18)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #147    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #148    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #149    GeneralizingAstVisitor.visitStatement (package:analyzer/dart/ast/visitor.dart:679:40)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #150    LinterVisitor.visitStatement (package:custom_lint_core/src/node_lint_visitor.g.dart:1029:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #151    GeneralizingAstVisitor.visitReturnStatement (package:analyzer/dart/ast/visitor.dart:651:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #152    LinterVisitor.visitReturnStatement (package:custom_lint_core/src/node_lint_visitor.g.dart:975:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #153    ReturnStatementImpl.accept (package:analyzer/src/dart/ast/ast.dart:15682:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #154    NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #155    BlockImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:1980:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #156    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #157    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #158    GeneralizingAstVisitor.visitStatement (package:analyzer/dart/ast/visitor.dart:679:40)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #159    LinterVisitor.visitStatement (package:custom_lint_core/src/node_lint_visitor.g.dart:1029:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #160    GeneralizingAstVisitor.visitBlock (package:analyzer/dart/ast/visitor.dart:173:32)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #161    LinterVisitor.visitBlock (package:custom_lint_core/src/node_lint_visitor.g.dart:112:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #162    BlockImpl.accept (package:analyzer/src/dart/ast/ast.dart:1976:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #163    BlockFunctionBodyImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:1931:12)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #164    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #165    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #166    GeneralizingAstVisitor.visitFunctionBody (package:analyzer/dart/ast/visitor.dart:373:46)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #167    LinterVisitor.visitFunctionBody (package:custom_lint_core/src/node_lint_visitor.g.dart:490:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #168    GeneralizingAstVisitor.visitBlockFunctionBody (package:analyzer/dart/ast/visitor.dart:176:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #169    LinterVisitor.visitBlockFunctionBody (package:custom_lint_core/src/node_lint_visitor.g.dart:118:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #170    BlockFunctionBodyImpl.accept (package:analyzer/src/dart/ast/ast.dart:1923:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #171    MethodDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:12149:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #172    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #173    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #174    GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #175    LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #176    GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #177    LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #178    GeneralizingAstVisitor.visitClassMember (package:analyzer/dart/ast/visitor.dart:203:44)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #179    LinterVisitor.visitClassMember (package:custom_lint_core/src/node_lint_visitor.g.dart:172:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #180    GeneralizingAstVisitor.visitMethodDeclaration (package:analyzer/dart/ast/visitor.dart:505:56)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #181    LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:730:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #182    MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #183    NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #184    ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #185    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #186    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #187    GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #188    LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #189    GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #190    LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #191    GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #192    LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #193    GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #194    LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #195    GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #196    LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #197    ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #198    NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #199    CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #200    GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #201    LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #202    GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #203    LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #204    CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #205    DartAssist.startUp.<anonymous closure> (package:custom_lint_core/src/assist.dart:81:17)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #206    _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #207    _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #208    _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #209    runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #210    _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:510:5)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 <asynchronous suspension>
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #211    ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 <asynchronous suspension>
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 #212    ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896 <asynchronous suspension>
+[WrapWithAsyncBuilder] 2024-05-15T21:18:00.698896

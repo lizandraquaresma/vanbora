@@ -30,9 +30,11 @@ dependencies:
   flutter_animate: ^4.5.0
   flutter_async: ^0.8.0
   path_provider: ^2.1.3
+  flutter_svg: ^2.0.10+1
   typeset: ^2.1.1
   formx: ^0.11.0
   gap: ^3.0.1
+  google_fonts: ^6.2.1
 
   #Utils
   dartx: ^1.2.0

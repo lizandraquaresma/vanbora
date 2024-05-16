@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../shared/constants/assets.dart';
 import 'splash_dois.dart';
 
 class SplashUm extends StatelessWidget {
@@ -21,7 +22,7 @@ class SplashUm extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 20),
-                child: Image.asset('/icons/van.png'),
+                child: Image.asset(AssetIcons.van),
               ),
               const Center(
                 child: Text(

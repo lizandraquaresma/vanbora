@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../shared/constants/assets.dart';
 import 'login_page.dart';
 
 class SplashDois extends StatelessWidget {
@@ -21,7 +22,7 @@ class SplashDois extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 20),
-                child: Image.asset('/icons/world.png'),
+                child: Image.asset(AssetIcons.world),
               ),
               const Gap(24),
               const Center(

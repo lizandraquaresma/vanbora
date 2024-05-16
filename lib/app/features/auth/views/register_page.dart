@@ -76,7 +76,8 @@ class RegisterPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      const Text('Crie a sua conta para ter acesso ao serviços'),
+                      const Text(
+                          'Crie a sua conta para ter acesso ao serviços'),
                       const Gap(24),
                       Text(
                         'Nome',
@@ -96,7 +97,7 @@ class RegisterPage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const Gap(8),
+                      const Gap(16),
                       Text(
                         'E-mail',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
@@ -115,7 +116,7 @@ class RegisterPage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const Gap(8),
+                      const Gap(16),
                       Text(
                         'Senha:',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
@@ -136,7 +137,6 @@ class RegisterPage extends StatelessWidget {
                       ),
                       const Gap(4),
                       const CheckboxTerms(),
-
                       const Gap(16),
                       FilledButton(
                         onPressed: () async {
@@ -157,27 +157,28 @@ class RegisterPage extends StatelessWidget {
                           backgroundColor: AppColors.light.secondary,
                           foregroundColor: Colors.white,
                         ),
-                        child: const Text('Criar Conta'),
+                        child: const Text(
+                          'Criar Conta',
+                          style: TextStyle(fontSize: 16),
+                        ),
                       ).asAsync(),
-                      const Gap(8),
-
+                      const Gap(16),
                       Center(
                         child: Column(
                           children: [
                             const Text(
                               'Já possui cadastro? ',
                               style: TextStyle(
-                                fontSize: 13,
+                                fontSize: 15,
                                 fontWeight: FontWeight.w400,
                               ),
                             ),
-                            const Gap(4),
                             TextButton(
                               onPressed: () => LoginPage.go(context),
                               child: Text(
                                 'Login',
                                 style: TextStyle(
-                                  fontSize: 13,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.bold,
                                   color: AppColors.light.secondary,
                                 ),
@@ -186,7 +187,6 @@ class RegisterPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      
                     ],
                   ),
                 ),
@@ -221,13 +221,16 @@ class _CheckboxTermsState extends State<CheckboxTerms> {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Checkbox(value: isCheck, onChanged: selectedCheck, activeColor: AppColors.light.secondary),
+        Checkbox(
+            value: isCheck,
+            onChanged: selectedCheck,
+            activeColor: AppColors.light.secondary),
         Expanded(
           child: TypeSet(
             softWrap: true,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: AppColors.light.primary,
-            ),
+                ),
             linkStyle: TextStyle(
               color: AppColors.light.primary,
               decoration: TextDecoration.underline,
