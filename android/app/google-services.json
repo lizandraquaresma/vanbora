@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396888538542",
+    "project_id": "vanbora-dev-e52f8",
+    "storage_bucket": "vanbora-dev-e52f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396888538542:android:0f51d7ad4e22033ff71c3f",
+        "android_client_info": {
+          "package_name": "com.example.vanbora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSCHJDZ0B53hbz58hGjKHcp73zj9Hr8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
