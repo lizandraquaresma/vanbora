@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_async/flutter_async.dart';
 import 'package:formx/formx.dart';
@@ -6,7 +5,6 @@ import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
-import '../../../services/firebase/firebase_auth_service.dart';
 import '../../../shared/constants/app_colors.dart';
 import '../../../shared/constants/assets.dart';
 import '../../home/views/home_page.dart';
@@ -19,16 +17,6 @@ class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
   static const name = 'login';
   static void go(BuildContext context) => context.goNamed(name);
-
-  static FirebaseAuthService _auth = FirebaseAuthService();
-  static final TextEditingController _emailController = TextEditingController();
-  static final TextEditingController _passwordController =
-      TextEditingController();
-
-  void dispose() {
-    _emailController.dispose();
-    _passwordController.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -95,11 +83,8 @@ class LoginPage extends StatelessWidget {
                     ),
                     const Gap(4),
                     TextFormField(
-                      controller: _emailController,
                       key: const Key('email'),
-                      validator: Validator()
-                          .required('Email necessário')
-                          .email('Email precisa ser válido'),
+                      validator: Validator().required().email(),
                       decoration: InputDecoration(
                         isDense: true,
                         prefixIcon: Icon(
@@ -117,9 +102,8 @@ class LoginPage extends StatelessWidget {
                     ),
                     const Gap(4),
                     TextFormField(
-                      controller: _passwordController,
                       key: const Key('password'),
-                      validator: Validator().required('Necessário senha'),
+                      validator: Validator().required(),
                       decoration: InputDecoration(
                         isDense: true,
                         prefixIcon: Icon(
@@ -145,11 +129,12 @@ class LoginPage extends StatelessWidget {
                     FilledButton(
                       onPressed: () async {
                         final state = context.formx();
-                        if (!state.validate())
-                          return;
-                        else {
-                          signIn(context);
-                        }
+                        if (!state.validate()) return;
+
+                        final dto = LoginDto.fromMap(state.values);
+                        await context.read<AuthStore>().login(dto);
+
+                        if (context.mounted) HomePage.go(context);
                       },
                       style: FilledButton.styleFrom(
                         minimumSize: const Size(double.infinity, 48),
@@ -200,19 +185,5 @@ class LoginPage extends StatelessWidget {
         ],
       ),
     );
-  }
-
-  void signIn(BuildContext context) async {
-    String email = _emailController.text;
-    String password = _passwordController.text;
-
-    User? user = await _auth.signInWithEmailAndPassword(email, password);
-
-    if (user != null) {
-      print("Usuário logado com sucesso");
-      if (context.mounted) HomePage.go(context);
-    } else {
-      print("Erro ao entrar na conta do usuário");
-    }
   }
 }

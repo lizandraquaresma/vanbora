@@ -17,12 +17,11 @@ class AppSplash extends StatelessWidget {
       home: Scaffold(
         backgroundColor: AppColors.light.primary,
         body: Center(
-          child: Image.asset(AssetImages.logoAlpha)
-              .animate()
-              .fadeIn(delay: 500.ms, duration: 1.2.seconds)
-              .scaleXY(begin: 0.75, curve: Curves.easeOutExpo)
-              .animate(delay: 1.seconds, onPlay: (c) => c.repeat())
-              .shimmer(color: Colors.grey[300], duration: 1200.ms),
+          child: Image.asset(AssetImages.logoAlpha).animate()
+                  .fadeIn(delay: 500.ms, duration: 1.2.seconds)
+                  .scaleXY(begin: 0.75, curve: Curves.easeOutExpo)
+                  .animate(delay: 1.seconds, onPlay: (c) => c.repeat())
+                  .shimmer(color: Colors.grey[300], duration: 1200.ms),
         ),
       ),
     );
